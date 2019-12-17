@@ -14,6 +14,13 @@
 		36235CF023A93B2900E8C9F0 /* LDS_Interview.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 36235CEE23A93B2900E8C9F0 /* LDS_Interview.xcdatamodeld */; };
 		36235CF223A93B2900E8C9F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36235CF123A93B2900E8C9F0 /* Assets.xcassets */; };
 		36235CF523A93B2900E8C9F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36235CF323A93B2900E8C9F0 /* LaunchScreen.storyboard */; };
+		36235CFE23A93BA600E8C9F0 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36235CFC23A93BA600E8C9F0 /* Person+CoreDataClass.swift */; };
+		36235CFF23A93BA600E8C9F0 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36235CFD23A93BA600E8C9F0 /* Person+CoreDataProperties.swift */; };
+		36235D0123A93BBB00E8C9F0 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36235D0023A93BBB00E8C9F0 /* CoreDataStack.swift */; };
+		36235D0323A93CA800E8C9F0 /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36235D0223A93CA800E8C9F0 /* HttpClient.swift */; };
+		36235D0523A93CE900E8C9F0 /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36235D0423A93CE900E8C9F0 /* UIImageExtensions.swift */; };
+		36235D0723A93D2800E8C9F0 /* ProfilePicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36235D0623A93D2800E8C9F0 /* ProfilePicCell.swift */; };
+		36235D0923A93DB300E8C9F0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36235D0823A93DB300E8C9F0 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,13 @@
 		36235CF123A93B2900E8C9F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36235CF423A93B2900E8C9F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36235CF623A93B2900E8C9F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36235CFC23A93BA600E8C9F0 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		36235CFD23A93BA600E8C9F0 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		36235D0023A93BBB00E8C9F0 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		36235D0223A93CA800E8C9F0 /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
+		36235D0423A93CE900E8C9F0 /* UIImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
+		36235D0623A93D2800E8C9F0 /* ProfilePicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePicCell.swift; sourceTree = "<group>"; };
+		36235D0823A93DB300E8C9F0 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +56,8 @@
 		36235CD923A93B2900E8C9F0 = {
 			isa = PBXGroup;
 			children = (
+				36235CFC23A93BA600E8C9F0 /* Person+CoreDataClass.swift */,
+				36235CFD23A93BA600E8C9F0 /* Person+CoreDataProperties.swift */,
 				36235CE423A93B2900E8C9F0 /* LDS_Interview */,
 				36235CE323A93B2900E8C9F0 /* Products */,
 			);
@@ -66,6 +82,11 @@
 				36235CF323A93B2900E8C9F0 /* LaunchScreen.storyboard */,
 				36235CF623A93B2900E8C9F0 /* Info.plist */,
 				36235CEE23A93B2900E8C9F0 /* LDS_Interview.xcdatamodeld */,
+				36235D0023A93BBB00E8C9F0 /* CoreDataStack.swift */,
+				36235D0223A93CA800E8C9F0 /* HttpClient.swift */,
+				36235D0423A93CE900E8C9F0 /* UIImageExtensions.swift */,
+				36235D0623A93D2800E8C9F0 /* ProfilePicCell.swift */,
+				36235D0823A93DB300E8C9F0 /* DetailViewController.swift */,
 			);
 			path = LDS_Interview;
 			sourceTree = "<group>";
@@ -141,8 +162,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36235D0923A93DB300E8C9F0 /* DetailViewController.swift in Sources */,
+				36235D0523A93CE900E8C9F0 /* UIImageExtensions.swift in Sources */,
+				36235D0123A93BBB00E8C9F0 /* CoreDataStack.swift in Sources */,
 				36235CEA23A93B2900E8C9F0 /* ViewController.swift in Sources */,
+				36235D0323A93CA800E8C9F0 /* HttpClient.swift in Sources */,
 				36235CF023A93B2900E8C9F0 /* LDS_Interview.xcdatamodeld in Sources */,
+				36235CFF23A93BA600E8C9F0 /* Person+CoreDataProperties.swift in Sources */,
+				36235D0723A93D2800E8C9F0 /* ProfilePicCell.swift in Sources */,
+				36235CFE23A93BA600E8C9F0 /* Person+CoreDataClass.swift in Sources */,
 				36235CE623A93B2900E8C9F0 /* AppDelegate.swift in Sources */,
 				36235CE823A93B2900E8C9F0 /* SceneDelegate.swift in Sources */,
 			);
